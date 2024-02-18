@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5f6f7;
+  background-color: #1b1b32;
+  padding: 50px 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.freecodecamp-logo {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  width: 350px;
+  font-family: "Castoro Titling", cursive;
+  text-align: center;
+  margin: 20px auto;
+}
+
+form {
+  width: 90%;
+  max-width: 500px;
+  height: 261.5px;
+  background-color: #3b3b4f;
+  margin: 0px 25px;
+  border: 3px solid rgb(233, 227, 227);
+}
+.label-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+#number {
+  width: calc(100% - 90px);
+  font-size: 2.5rem;
+  background-color: #0a0a23;
+  color: #f5f6f7;
+  margin: 10px 45px;
+  padding: 6px 12px;
+  border: 1px solid rgb(233, 227, 227);
+}
+#convert-btn {
+  width: calc(100% - 90px);
+  font-size: 23px;
+  background: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  margin: 15px 45px 10px 45px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+.output {
+  width: 90%;
+  max-width: 500px;
+  font-size: 2.5rem;
+  background-color: #3b3b4f;
+  margin-top: 25px;
+  padding: 15px;
+  border: 3px solid rgb(233, 227, 227);
+  text-align: center;
+  display: none;
+}
+.alert {
+  width: 90%;
+  max-width: 500px;
+  color: #850000;
+  font-size: 2rem;
+  background-color: #ffadad;
+  margin-top: 25px;
+  padding: 15px;
+  border: 3px solid #850000;
+  text-align: center;
+}
